@@ -36,7 +36,7 @@ st.sidebar.header("🔧 Controls")
 uploaded = st.sidebar.file_uploader("Upload merged dataset (.xlsx)", type=["xlsx"])
 default_path = st.sidebar.text_input(
     "…or provide a local path (optional)", 
-    "/Users/sujiththota/Downloads/Python/Research/ML_DATA/new_data/merged_dataset.xlsx"
+    "merged_dataset.xlsx"
 )
 model_choice = st.sidebar.selectbox("Model", ["Random Forest", "Logistic Regression"])
 test_size = st.sidebar.slider("Test size", 0.1, 0.4, 0.2, 0.05)
